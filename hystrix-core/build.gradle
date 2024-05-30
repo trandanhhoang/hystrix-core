@@ -1,0 +1,32 @@
+dependencies {
+    implementation 'org.slf4j:slf4j-api:1.7.0'
+
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    compileOnly 'org.projectlombok:lombok:1.18.32'
+
+    annotationProcessor 'org.projectlombok:lombok:1.18.32'
+
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+group = 'com.example.concurentnetflix'
+
+if (!project.hasProperty('version') || project.version == "unspecified") {
+    project.version = "1.0.0-SNAPSHOT"
+}
+
+publishing {
+    repositories {
+        mavenLocal()
+    }
+
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.example.concurentnetflix'
+            artifactId = 'hystrix'
+
+            from components.java
+        }
+    }
+}

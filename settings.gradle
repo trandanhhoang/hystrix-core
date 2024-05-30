@@ -1,0 +1,7 @@
+rootProject.name = 'hystrix-lib'
+
+include 'hystrix-core'
+include 'hystrix-contribute/hystrix-javanica'
+
+project(':hystrix-contribute/hystrix-javanica').name = 'hystrix-javanica'
+
