@@ -1,8 +1,7 @@
-package com.example.concurentnetflix.conc;
+package com.example.hystrix.conc;
 
-import com.example.concurentnetflix.conc.concurrency.HystrixConcurrencyStrategy;
-import com.example.concurentnetflix.conc.concurrency.HystrixConcurrencyStrategyDefault;
-import com.example.concurentnetflix.conc.variable.HystrixRequestVariableDefault;
+import com.example.hystrix.conc.concurrency.HystrixConcurrencyStrategy;
+import com.example.hystrix.conc.concurrency.HystrixConcurrencyStrategyDefault;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

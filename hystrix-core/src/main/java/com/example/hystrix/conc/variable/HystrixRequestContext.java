@@ -1,6 +1,4 @@
-package com.example.concurentnetflix.conc.variable;
-
-import com.example.concurentnetflix.conc.concurrency.HystrixConcurrencyStrategyDefault;
+package com.example.hystrix.conc.variable;
 
 import java.util.concurrent.ConcurrentHashMap;
 

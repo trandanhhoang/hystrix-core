@@ -1,4 +1,4 @@
-package com.example.concurentnetflix.conc.concurrency;
+package com.example.hystrix.conc.concurrency;
 
 
 public class HystrixConcurrencyStrategyDefault extends HystrixConcurrencyStrategy{

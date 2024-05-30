@@ -1,7 +1,7 @@
-package com.example.concurentnetflix.test;
+package com.example.hystrix.test;
 
-import com.example.concurentnetflix.conc.HystrixCommand;
-import com.example.concurentnetflix.conc.HystrixCommandGroupKey;
+import com.example.hystrix.conc.HystrixCommand;
+import com.example.hystrix.conc.HystrixCommandGroupKey;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

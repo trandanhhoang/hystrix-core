@@ -1,4 +1,4 @@
-package com.example.concurentnetflix.conc;
+package com.example.hystrix.conc;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -74,7 +74,7 @@ public class QueueFuture<K> implements Future<K> {
             performActualGet();
         }else{
             // waiting
-            logger.info("I'm wating for actualFutureExecuted");
+            logger.info("I'm waiting for actualFutureExecuted");
             actualResponseRecieved.await();
         }
         return result;

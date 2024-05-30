@@ -1,4 +1,4 @@
-package com.example.concurentnetflix.conc;
+package com.example.hystrix.conc;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;

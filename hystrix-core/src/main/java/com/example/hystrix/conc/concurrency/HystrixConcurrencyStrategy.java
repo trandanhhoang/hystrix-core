@@ -1,8 +1,8 @@
-package com.example.concurentnetflix.conc.concurrency;
+package com.example.hystrix.conc.concurrency;
 
-import com.example.concurentnetflix.conc.variable.HystrixRequestVariable;
-import com.example.concurentnetflix.conc.variable.HystrixRequestVariableDefault;
-import com.example.concurentnetflix.conc.variable.HystrixRequestVariableLifecycle;
+import com.example.hystrix.conc.variable.HystrixRequestVariable;
+import com.example.hystrix.conc.variable.HystrixRequestVariableDefault;
+import com.example.hystrix.conc.variable.HystrixRequestVariableLifecycle;
 
 /**
  * Custom implementations of this interface can be used to override default behavior via 2 mechanisms:

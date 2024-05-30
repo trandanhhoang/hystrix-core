@@ -1,8 +1,8 @@
-package com.example.concurentnetflix.conc;
+package com.example.hystrix.conc;
 
-import com.example.concurentnetflix.conc.concurrency.HystrixConcurrencyStrategy;
-import com.example.concurentnetflix.conc.variable.HystrixRequestVariableHolder;
-import com.example.concurentnetflix.conc.variable.HystrixRequestVariableLifecycle;
+import com.example.hystrix.conc.concurrency.HystrixConcurrencyStrategy;
+import com.example.hystrix.conc.variable.HystrixRequestVariableHolder;
+import com.example.hystrix.conc.variable.HystrixRequestVariableLifecycle;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 

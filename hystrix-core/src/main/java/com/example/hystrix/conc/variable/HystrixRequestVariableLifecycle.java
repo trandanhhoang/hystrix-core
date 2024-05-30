@@ -1,4 +1,4 @@
-package com.example.concurentnetflix.conc.variable;
+package com.example.hystrix.conc.variable;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Future;

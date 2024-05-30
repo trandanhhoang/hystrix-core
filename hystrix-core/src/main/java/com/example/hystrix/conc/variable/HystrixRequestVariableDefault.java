@@ -1,4 +1,4 @@
-package com.example.concurentnetflix.conc.variable;
+package com.example.hystrix.conc.variable;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

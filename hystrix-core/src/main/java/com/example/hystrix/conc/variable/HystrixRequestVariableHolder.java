@@ -1,6 +1,6 @@
-package com.example.concurentnetflix.conc.variable;
+package com.example.hystrix.conc.variable;
 
-import com.example.concurentnetflix.conc.concurrency.HystrixConcurrencyStrategy;
+import com.example.hystrix.conc.concurrency.HystrixConcurrencyStrategy;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 
